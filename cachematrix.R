@@ -1,5 +1,5 @@
 ## makeCacheMatrix stores a matrix and returns a list of functions,
-## cacheSolve tests for and collects the cached matrix and 
+## cacheSolve tests for and collects the cached inverse matrix or 
 ## solves for the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
