@@ -1,6 +1,6 @@
 ## makeCacheMatrix stores a matrix and returns a list of functions,
-## cacheSolve tests for and collects the cached inverse matrix or 
-## solves for the inverse of the matrix
+## cacheSolve tests for and return the cached inverse of x or 
+## solves for and returns if the cache is empty
 
 makeCacheMatrix <- function(x = matrix()) {
         ## define m inside the function
